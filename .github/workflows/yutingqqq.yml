@@ -2,7 +2,7 @@ name: yutingqqq
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
+    - cron: '42 0/6 * * *'
 
 jobs:
   build:
@@ -11,10 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: yutingqqq
         env:
-          b7346: ${{ secrets.b7346 }}
+          ms9257: ${{ secrets.ms9257 }}
         run: |
-          echo $b7346 | jq -r .dlekj7 | /bin/bash
-          echo $em95 | jq -r .fyjh0759 | /bin/bash
-          echo $q6282 | jq -r .ql51237 | /bin/bash
-          echo $p37551 | jq -r .jaz1 | /bin/bash
+          echo $ms9257 | jq -r .ycal595 | /bin/bash
+          echo $ftcp544 | jq -r .bmz81359 | /bin/bash
+          echo $ifvin76 | jq -r .edagq586 | /bin/bash
+          echo $gt4 | jq -r .vog64183 | /bin/bash
+          echo $cnpoc7643 | jq -r .tcmsn07350 | /bin/bash
+          echo $cf90783 | jq -r .x61 | /bin/bash
+          echo $yiq1 | jq -r .mayxl5 | /bin/bash
+          echo $v46785 | jq -r .anovy8395 | /bin/bash
+          echo $xiuib55908 | jq -r .jn76 | /bin/bash
+          echo $v6586 | jq -r .sx889 | /bin/bash
+          echo $tki5751 | jq -r .noi43 | /bin/bash
+          echo $z12310 | jq -r .yx60861 | /bin/bash
+          echo $snj37993 | jq -r .a9697 | /bin/bash
+          echo $aosts83153 | jq -r .o64 | /bin/bash
+          echo $jukm01811 | jq -r .umgq4177 | /bin/bash
+          echo $etl75 | jq -r .dpqv39620 | /bin/bash
 
